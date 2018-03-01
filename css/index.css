@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+.left{
+    position: relative;
+    float: left;
+    width: 12.5%;
+    height: 100%;
+    background-color: red;
+}
+.left .rightBorder{
+    position: absolute;
+    right: 0px;
+    top:0px;
+    width: 10px;
+    height: 100%;
+    background-color: black;
+    cursor: e-resize;
+}
+.center{
+    float: left;
+    width: 75%;
+    height: 100%;
+}
+.right{
+    position: relative;
+    float: left;
+    width: 12.5%;
+    height: 100%;
+    background-color: blue;
+}
+.right .leftBorder{
+    position: absolute;
+    left: 0px;
+    top:0px;
+    width: 10px;
+    height: 100%;
+    background-color: black;
+    cursor: e-resize;
+}
